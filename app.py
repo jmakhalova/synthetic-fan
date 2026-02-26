@@ -198,7 +198,7 @@ with st.sidebar:
     st.markdown("### Model")
     model = st.selectbox(
         "Claude model",
-        ["claude-sonnet-4-5-20250514", "claude-opus-4-0-20250514", "claude-haiku-4-5-20251001"],
+        ["claude-sonnet-4-5-20250929", "claude-opus-4-5-20251101", "claude-haiku-4-5-20251001"],
         index=0,
         help="Sonnet is fast and capable. Opus is deeper but slower and more expensive."
     )
